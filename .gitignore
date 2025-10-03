@@ -1,41 +1,30 @@
-# Prerequisites
-*.d
+# Создано с помощью https://www.toptal.com/developers/gitignore/api/windows
+# Отредактируйте на https://www.toptal.com/developers/gitignore?templates=windows
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+### Windows ###
+# Файлы кэша миниатюр Windows
+Thumbs.db
+Thumbs.db: шифруемый
+ehthumbs.db
+ehthumbs_vista.db
 
-# Precompiled Headers
-*.gch
-*.pch
+# Файл дампа
+*.stackdump
 
-# Linker files
-*.ilk
+# Файл конфигурации папки
+[Dd]esktop.ini
 
-# Debugger Files
-*.pdb
+# Корзина, используемая для общих файловых ресурсов
+$RECYCLE.BIN/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Файлы установщика Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Fortran module files
-*.mod
-*.smod
+# Ярлыки Windows
+*.lnk
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Конец https://www.toptal.com/developers/gitignore/api/windows
